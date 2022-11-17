@@ -8,8 +8,8 @@
 #include <FS.h>
 
 
-const char* ssid = "ALHN-C208";
-const char* password = "B6D8SZyMxn";
+const char* ssid = "*****"; // Network name
+const char* password = "*****"; //Network password
 
 //---------Pinouts----------
 #define SS_PIN 4
