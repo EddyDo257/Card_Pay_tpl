@@ -194,7 +194,8 @@ session_start();
 </body>
 <script type="text/javascript">
   var a=document.getElementById("total_price").innerHTML;
-  var url = "http://192.168.1.87";
+  var url = "http://*****"; //ip address from your arduino ide
+  
   document.querySelector('input[name="total"]').value = a;
   console.log(a);
 
