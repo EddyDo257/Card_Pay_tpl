@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-  $conn = new mysqli('localhost', 'root', '', 'pay');
+  $conn = new mysqli('localhost', 'root', '', 'Database name');
 
   if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
