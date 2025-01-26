@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/repositories/Card_Pay_tpl/
-    - /bin/cp -R . $DEPLOYPATH
+    - /bin/cp -R card_pay_arduino_code $DEPLOYPATH
